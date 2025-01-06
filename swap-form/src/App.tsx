@@ -1,11 +1,10 @@
-import './App.css'
+import SwapForm from './components/SwapForm/SwapForm'
 
 function App() {
-
   return (
-    <>
-      <div className='text-3xl font-bold underline'>Hello World</div>
-    </>
+    <h1 className="flex min-h-screen w-full items-center justify-center bg-[##FDFDFD]">
+      <SwapForm />
+    </h1>
   )
 }
 
