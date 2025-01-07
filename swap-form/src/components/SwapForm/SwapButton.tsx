@@ -8,7 +8,7 @@ const SwapButton: React.FC<React.PropsWithChildren<{
     <button
       onClick={onClick}
       disabled={disabled}
-      className={`w-full py-3 bg-pink-200 text-pink-600 font-medium rounded-lg transition ${
+      className={`w-full py-3 bg-[#FEF3FF] text-[#FC72FF] font-medium rounded-lg transition ${
         disabled ? "opacity-50 cursor-not-allowed" : "hover:bg-pink-300"
       }`}
     >
